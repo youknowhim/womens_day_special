@@ -105,20 +105,20 @@ git clone https://github.com/yourusername/womens-day-app.git
 
 Navigate to project folder:
 
-cd womens-day-app
+cd womens_day
 
 Install dependencies:
-<br>
+<br/>
 
-npm install<br>
+npm install<br/>
 
-Run the development server:<br>
+Run the development server:<br/>
 
-npm run dev<br>
+npm run dev<br/>
 
-Open in browser:<br>
+Open in browser:<br/>
 
-http://localhost:5173<br>
+http://localhost:5173<br/>
 
 You can include screenshots of:
 
