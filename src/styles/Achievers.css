@@ -1,0 +1,65 @@
+.search-box{
+display:flex;
+gap:10px;
+justify-content:center;
+margin-bottom:30px;
+flex-wrap:wrap;
+margin-top: 20px;
+}
+
+.search-box input{
+padding:10px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+.achiever-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:20px;
+}
+
+.achiever-card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+transition:0.3s;
+}
+
+.achiever-card:hover{
+transform:translateY(-6px);
+box-shadow:0 20px 40px rgba(0,0,0,0.25);
+}
+
+.field{
+font-weight:600;
+color:#c2185b;
+}
+
+.desc{
+margin-top:5px;
+font-size:14px;
+color:#555;
+}
+.loader-container{
+text-align:center;
+margin-top:30px;
+}
+
+.loader{
+border:6px solid #f3f3f3;
+border-top:6px solid #ff4f81;
+border-radius:50%;
+width:40px;
+height:40px;
+animation:spin 1s linear infinite;
+margin:auto;
+margin-bottom:10px;
+}
+
+@keyframes spin{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
